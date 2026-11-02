@@ -1,0 +1,30 @@
+$ ls -l /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts
+total 32
+drwxrwx--- 2 rashmigowda rashmigowda 4096 Oct 22 16:04 .
+drwxrwxr-x 8 rashmigowda rashmigowda 4096 Oct 22 16:04 ..
+-rwxrwx--- 1 rashmigowda rashmigowda  782 Oct 22 16:04 backup.sh
+-rwxrwx--- 1 rashmigowda rashmigowda  913 Oct 22 16:04 restore.sh
+-rwxrwx--- 1 rashmigowda rashmigowda 1250 Oct 22 16:04 security_check.sh
+-rwxrwx--- 1 rashmigowda rashmigowda  625 Oct 22 16:04 start.sh
+-rwxrwx--- 1 rashmigowda rashmigowda  568 Oct 22 16:04 status.sh
+-rwxrwx--- 1 rashmigowda rashmigowda  323 Oct 22 16:04 stop.sh
+
+$ stat /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/*.sh
+  File: /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/backup.sh
+Access: (0770/-rwxrwx---)  Uid: ( 1000/rashmigowda)   Gid: ( 1000/rashmigowda)
+Access: 2026-10-22 16:04:17.156456664 +0000
+  File: /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/restore.sh
+Access: (0770/-rwxrwx---)  Uid: ( 1000/rashmigowda)   Gid: ( 1000/rashmigowda)
+Access: 2026-10-22 16:04:17.204457276 +0000
+  File: /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/security_check.sh
+Access: (0770/-rwxrwx---)  Uid: ( 1000/rashmigowda)   Gid: ( 1000/rashmigowda)
+Access: 2026-10-22 16:04:17.249457849 +0000
+  File: /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/start.sh
+Access: (0770/-rwxrwx---)  Uid: ( 1000/rashmigowda)   Gid: ( 1000/rashmigowda)
+Access: 2026-10-22 16:04:17.060455442 +0000
+  File: /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/status.sh
+Access: (0770/-rwxrwx---)  Uid: ( 1000/rashmigowda)   Gid: ( 1000/rashmigowda)
+Access: 2026-10-22 16:04:17.009454793 +0000
+  File: /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/stop.sh
+Access: (0770/-rwxrwx---)  Uid: ( 1000/rashmigowda)   Gid: ( 1000/rashmigowda)
+Access: 2026-10-22 16:04:17.103455990 +0000

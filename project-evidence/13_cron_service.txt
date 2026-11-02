@@ -1,0 +1,26 @@
+$ systemctl status cron
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/usr/lib/systemd/system/cron.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-22 04:36:59 UTC; 11h ago
+ Invocation: 5526dcd846004aceaaf109ca9ca5c3b3
+       Docs: man:cron(8)
+   Main PID: 1172 (cron)
+      Tasks: 1 (limit: 1829)
+     Memory: 1.8M (peak: 4.6M)
+        CPU: 971ms
+     CGroup: /system.slice/cron.service
+             └─1172 /usr/sbin/cron -f -P
+
+Oct 22 10:17:01 Ubuntu-Linux-Admin CRON[23696]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 22 10:17:01 Ubuntu-Linux-Admin CRON[23694]: pam_unix(cron:session): session closed for user root
+Oct 22 10:30:01 Ubuntu-Linux-Admin CRON[23969]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct 22 10:30:01 Ubuntu-Linux-Admin CRON[23969]: pam_unix(cron:session): session closed for user root
+Oct 22 15:17:01 Ubuntu-Linux-Admin CRON[30011]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct 22 15:17:01 Ubuntu-Linux-Admin CRON[30013]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Oct 22 15:17:01 Ubuntu-Linux-Admin CRON[30011]: pam_unix(cron:session): session closed for user root
+Oct 22 15:30:01 Ubuntu-Linux-Admin CRON[30094]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Oct 22 15:30:01 Ubuntu-Linux-Admin CRON[30096]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct 22 15:30:01 Ubuntu-Linux-Admin CRON[30094]: pam_unix(cron:session): session closed for user root
+
+Cron daemon process check:
+  ACTIVE: Cron daemon is running (PID: 1172)

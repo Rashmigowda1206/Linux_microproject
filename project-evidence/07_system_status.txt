@@ -1,0 +1,24 @@
+$ bash /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/status.sh
+=======================================================
+            CIVICAI SYSTEM STATUS
+=======================================================
+
+Current Date and Time:
+Thu Oct 22 04:09:16 PM UTC 2026
+
+Current User:
+rashmigowda
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        40G  7.5G   31G  20% /
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.8Gi       445Mi        68Mi       1.3Gi       1.5Gi
+Swap:             0B          0B          0B
+
+CivicAI Application Status:
+CivicAI development server is NOT running.
+
+System status check completed.

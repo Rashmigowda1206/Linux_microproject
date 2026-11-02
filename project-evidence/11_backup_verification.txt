@@ -1,0 +1,38 @@
+$ tar -tzf /home/rashmigowda/Linux-Administration/linux-admin-microproject/backups/civicai_backup_20261022_160921.tar.gz | head -30
+Latest backup: /home/rashmigowda/Linux-Administration/linux-admin-microproject/backups/civicai_backup_20261022_160921.tar.gz
+Archive integrity check:
+  PASS: Archive is valid
+File listing (first 30 files):
+./
+./DEPLOY_NOW.bat
+./vite.config.ts
+./CivicAI_Hackathon_Presentation.pptx
+./vercel.json
+./CivicAI_Visor_Edition_Pitch_Deck.pptx
+./tsconfig.json
+./create_presentation.py
+./index.html
+./create_presentation_visor.py
+./md
+./package.json
+./package-lock.json
+./CivicAI_Smart_Public_Issue_Resolution.pptx
+./tailwind.config.js
+./.git/
+./.git/logs/
+./.git/logs/refs/
+./.git/logs/refs/remotes/
+./.git/logs/refs/remotes/origin/
+./.git/logs/refs/remotes/origin/HEAD
+./.git/logs/refs/remotes/origin/main
+./.git/logs/refs/heads/
+./.git/logs/refs/heads/main
+./.git/logs/HEAD
+./.git/config
+./.git/FETCH_HEAD
+./.git/info/
+./.git/info/exclude
+./.git/description
+  ...
+  Total files: 190
+  Archive size: 5.3M

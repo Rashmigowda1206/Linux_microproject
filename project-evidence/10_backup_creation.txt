@@ -1,0 +1,15 @@
+$ bash /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/backup.sh
+=====================================
+       CIVICAI BACKUP
+=====================================
+Starting CivicAI backup...
+Backup successful!
+Saved to: /home/rashmigowda/Linux-Administration/linux-admin-microproject/backups/civicai_backup_20261022_160921.tar.gz
+Backup size: 5.3M
+
+Backups directory contents:
+total 16M
+drwxrwxr-x 4 rashmigowda rashmigowda 4.0K Oct 22 09:25 civicai_backup_20261022_101818
+-rw-rw-r-- 1 rashmigowda rashmigowda 5.3M Oct 22 10:18 civicai_backup_20261022_101818.tar.gz
+-rw-rw-r-- 1 rashmigowda rashmigowda 5.3M Oct 22 10:47 civicai_backup_20261022_104708.tar.gz
+-rw-rw---- 1 rashmigowda rashmigowda 5.3M Oct 22 16:09 civicai_backup_20261022_160921.tar.gz

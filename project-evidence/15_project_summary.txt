@@ -1,0 +1,57 @@
+=================================================
+     CIVICAI LINUX ADMINISTRATION PROJECT
+           SUMMARY REPORT
+=================================================
+
+Project: CivicAI - Smart Public Issue Resolution
+Microproject: Linux System Administration
+Student: Rashmigowda
+Date: Thu Oct 22 04:09:29 PM UTC 2026
+
+--- Project Paths ---
+  Main Workspace:    /home/rashmigowda/Linux-Administration
+  CivicAI App:       /home/rashmigowda/Linux-Administration/civicai
+  Admin Microproject: /home/rashmigowda/Linux-Administration/linux-admin-microproject
+
+--- Scripts Available ---
+  backup.sh - executable
+  restore.sh - executable
+  security_check.sh - executable
+  start.sh - executable
+  status.sh - executable
+  stop.sh - executable
+
+--- Backups ---
+  Total backup files: 3
+-rw-rw-r-- 1 rashmigowda rashmigowda 5.3M Oct 22 10:18 /home/rashmigowda/Linux-Administration/linux-admin-microproject/backups/civicai_backup_20261022_101818.tar.gz
+-rw-rw-r-- 1 rashmigowda rashmigowda 5.3M Oct 22 10:47 /home/rashmigowda/Linux-Administration/linux-admin-microproject/backups/civicai_backup_20261022_104708.tar.gz
+-rw-rw---- 1 rashmigowda rashmigowda 5.3M Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/backups/civicai_backup_20261022_160921.tar.gz
+
+--- System Info ---
+  OS:     GNU/Linux
+  Kernel: 7.0.0-38-generic
+  Arch:   x86_64
+  Host:   Ubuntu-Linux-Admin
+  User:   rashmigowda
+  Uptime: up 10 hours, 24 minutes
+
+--- Evidence Files Generated ---
+-rw-rw---- 1 rashmigowda rashmigowda 3299 Oct 22 16:05 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/01_project_structure.txt
+-rw-rw---- 1 rashmigowda rashmigowda  351 Oct 22 16:05 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/02_system_information.txt
+-rw-rw---- 1 rashmigowda rashmigowda  443 Oct 22 16:05 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/03_disk_usage.txt
+-rw-rw---- 1 rashmigowda rashmigowda  217 Oct 22 16:05 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/04_memory_usage.txt
+-rw-rw---- 1 rashmigowda rashmigowda 1969 Oct 22 16:05 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/05_script_permissions.txt
+-rw-rw---- 1 rashmigowda rashmigowda  765 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/06_application_build.txt
+-rw-rw---- 1 rashmigowda rashmigowda  746 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/07_system_status.txt
+-rw-rw---- 1 rashmigowda rashmigowda  424 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/08_start_service.txt
+-rw-rw---- 1 rashmigowda rashmigowda  237 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/09_stop_service.txt
+-rw-rw---- 1 rashmigowda rashmigowda  775 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/10_backup_creation.txt
+-rw-rw---- 1 rashmigowda rashmigowda 1029 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/11_backup_verification.txt
+-rw-rw---- 1 rashmigowda rashmigowda 1078 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/12_cron_schedule.txt
+-rw-rw---- 1 rashmigowda rashmigowda 1748 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/13_cron_service.txt
+-rw-rw---- 1 rashmigowda rashmigowda  803 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/14_security_check.txt
+-rw-rw---- 1 rashmigowda rashmigowda 1479 Oct 22 16:09 /home/rashmigowda/Linux-Administration/linux-admin-microproject/project-evidence/15_project_summary.txt
+
+=================================================
+           SUMMARY COMPLETE
+=================================================

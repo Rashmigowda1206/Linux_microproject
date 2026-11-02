@@ -1,0 +1,9 @@
+$ bash /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/start.sh
+==========================================
+         STARTING CIVICAI
+==========================================
+CivicAI server startup requested.
+Check /home/rashmigowda/Linux-Administration/linux-admin-microproject/logs/civicai.log for details.
+
+Checking if server started:
+  [INFO] Server not running (may be normal in headless mode)

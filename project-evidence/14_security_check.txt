@@ -1,0 +1,27 @@
+$ bash /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/security_check.sh
+====================================
+     LINUX SECURITY CHECK
+====================================
+
+1. Checking script permissions...
+  PASS: backup.sh is executable
+  PASS: restore.sh is executable
+  PASS: security_check.sh is executable
+  PASS: start.sh is executable
+  PASS: status.sh is executable
+  PASS: stop.sh is executable
+
+2. Checking project directories...
+  PASS: scripts/ directory exists
+  PASS: config/ directory exists
+  PASS: logs/ directory exists
+  PASS: backups/ directory exists
+  PASS: tests/ directory exists
+
+3. Checking config file...
+  PASS: project.conf exists
+
+4. Checking for world-writable files in project...
+  PASS: No world-writable files found
+
+Security check completed.

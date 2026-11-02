@@ -1,0 +1,5 @@
+$ bash /home/rashmigowda/Linux-Administration/linux-admin-microproject/scripts/stop.sh
+==========================================
+         STOPPING CIVICAI
+==========================================
+No CivicAI Vite server found running.
